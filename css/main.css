@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: sans serif;
+  font-family: "sans-serif";
   line-height: 1.5;
 }
 
@@ -32,11 +32,11 @@ header h1 {
 body {
   margin: 0;
   padding: .75em 1em .6em;
-  margin: auto;
 }
 
 nav a {
   color: #0074d9;
+  margin: auto;
 }
 
 nav ul {
