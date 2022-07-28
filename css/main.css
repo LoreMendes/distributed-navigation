@@ -1,7 +1,5 @@
 html {
   box-sizing: border-box;
-  font-family: Merriweather, serif;
-  line-height: 1.5;
 }
 
 *, *::before, *::after {
@@ -25,6 +23,7 @@ header {
   background-color: #e2e2e2;
   flex-direction: row;
   justify-content: space-around;
+  margin: auto;
 }
 
 h1 {
