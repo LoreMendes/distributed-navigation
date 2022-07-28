@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: "sans-serif";
+  font-family: sans-serif;
   line-height: 1.5;
 }
 
@@ -34,13 +34,16 @@ body {
   padding: .75em 1em .6em;
 }
 
+nav a {
+  color: #0074d9;
+  margin: auto;
+}
+
 nav a:hover {
   background-color: #0074d9;
 }
 
 nav ul {
-  color: #0074d9;
-  margin: auto;
   display: inline-flex;
   align-items: center;
 }
