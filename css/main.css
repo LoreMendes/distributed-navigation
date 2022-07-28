@@ -1,52 +1,50 @@
 html {
   box-sizing: border-box;
+  font-family: sans serif;
+  line-height: 1.5;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-img {
+header img {
   width: 2rem;
-  order: -1
+  order: -1;
 }
 
 header {
   margin: .5rem;
   padding: 1rem;
-  font-family: sans-serif;
   font-size: 1.125rem;
-  line-height: 1.5;
   color: black;
   display: flex;
   flex-wrap: nowrap;
   background-color: #e2e2e2;
   flex-direction: row;
   justify-content: space-around;
-  margin: auto;
 }
 
-h1 {
+header h1 {
   color: black;
 }
 
 body {
   margin: 0;
   padding: .75em 1em .6em;
+  margin: auto;
 }
 
-nav {
+nav a {
   color: #0074d9;
 }
 
-ul li {
+nav ul {
   display: inline-flex;
   align-items: center;
 }
 
-p {
+header p {
   flex-grow: 2;
   text-align: center;
-
-
 }
