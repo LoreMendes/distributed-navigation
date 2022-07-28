@@ -28,7 +28,7 @@ header {
 }
 
 h1 {
-  color: #black;
+  color: black;
 }
 
 body {
@@ -46,6 +46,6 @@ ul li {
 
 p {
   flex-grow: 2;
-  text-align: center;
+  align-items: center;
 
 }
