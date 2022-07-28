@@ -42,10 +42,12 @@ nav {
 
 ul li {
   display: inline-flex;
+  align-items: center;
 }
 
 p {
   flex-grow: 2;
-  align-items: center;
+  text-align: center;
+
 
 }
